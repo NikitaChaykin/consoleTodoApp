@@ -23,10 +23,10 @@ interface IConsoleParams {
 }
 
 class ConsoleParams implements IConsoleParams {
-    private flag: { [key: string]: boolean } = {};
-    private argsString: { [key: string]: string } = {};
-    private argsBool: { [key: string]: boolean } = {};
-    private argsDate: { [key: string]: Date } = {};
+    private flag: ProcessParamsFlag = {};
+    private argsString: ProcessParamsArgsString = {};
+    private argsBool: ProcessParamsArgsBool = {};
+    private argsDate: ProcessParamsArgsDate = {};
 
     private params = process.argv.slice(2, process.argv.length);
 

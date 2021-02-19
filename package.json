@@ -1,0 +1,34 @@
+{
+  "name": "consoleTodoApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "line-reader": "^0.4.0",
+    "typescript": "^4.1.5",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/line-reader": "0.0.33",
+    "@types/node": "^14.14.28",
+    "@types/uuid": "^8.3.0",
+    "prettier": "^2.2.1",
+    "ts-node": "^9.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write ./src/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikitaChaykin/consoleTodoApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NikitaChaykin/consoleTodoApp/issues"
+  },
+  "homepage": "https://github.com/NikitaChaykin/consoleTodoApp#readme"
+}

@@ -150,7 +150,7 @@ class StorageFs implements IStorageFS {
   insert = async (todo: ITodo) => {
     try {
       if (!(await this.readFileFS()).length) {
-        todo['id'] = 1;
+        todo['id'] = 1; 
         await fs.appendFile(this.pathFile, JSON.stringify([todo], null, 2)).then(() => {
           console.log(
             '\x1b[35m',

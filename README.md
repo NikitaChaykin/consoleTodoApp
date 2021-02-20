@@ -5,7 +5,7 @@ example -add --path=../dater.json --time=0h   -  This entry will be removed imme
 args [
     --time
     maxHours - 999
-    example: --time=21h or --time=01.04.2001, 01-date, 04-month, 2001 - year
+    example: --time=21h or --time=01.04.2001, 01-date, 04-month, 2001 - year,
     
     --title
     If you wanna write title with space use '', example: --title='hello world !',

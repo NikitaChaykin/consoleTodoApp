@@ -152,7 +152,7 @@ class StorageFs implements IStorageFS {
       if (!(await this.readFileFS()).length) {
         todo['id'] = 1;
         await fs.appendFile(this.pathFile, JSON.stringify([todo], null, 2)).then(() => {
-          console.error(
+          console.log(
             '\x1b[35m',
             `The file along the path ${this.pathFile} was successfully created`,
             '\x1b[0m',
